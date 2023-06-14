@@ -198,6 +198,8 @@ a:hover::before {
         aspect-ratio: 1;
         background: url('../assets/menu.svg') no-repeat;
         cursor: pointer;
+        border: none;
+        outline: none;
     }
 
 }

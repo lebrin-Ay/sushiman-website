@@ -1,0 +1,66 @@
+.headerNav {
+    display: flex;
+    overflow: hidden;
+}
+
+.headerLogo {
+    flex: 1;
+    display: flex;
+    position: relative;
+    padding: 20px;
+}
+
+.headerLogoOverlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    z-index: -1;
+}
+
+.headerLogo h4 {
+    padding-left: 30px;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: var(--playfair-display);
+    opacity: 0.8;
+}
+
+.headerMenu,
+.headerMenuMobile {
+    padding: 20px;
+    display: flex;
+    flex: 1.235;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 64px;
+    list-style: none;
+}
+
+.headerMenu li {
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.headerMenu li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.headerMenu li img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.headerMenuMobile {
+    display: none;
+    gap: 20px;
+    position: relative;
+}

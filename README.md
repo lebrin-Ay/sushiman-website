@@ -18,7 +18,7 @@ The website provides a user-friendly interface and a variety of features to show
 
 ## Demo
 
-Insert gif or link to demo
+https://sushiman-90.netlify.app/
 
 
 ## Deployment
